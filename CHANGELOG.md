@@ -8,6 +8,7 @@ This document follows the conventions laid out in [Keep a CHANGELOG][].
 ## [unreleased][]
 
 ### Added
+-   Optimized implicit assembly loading on module import, PythonEngine.ImplicitAssemblyLoading event added.
 -   Improved performance. String marshaling between python and clr now cached. 
     Cache reduces GC pressure and saves from extensive memory copying.
 -   Added tool for debugging floating bugs. Stable tests are executed in the loop. ~100 cycles is enough to pop up any bugs.
